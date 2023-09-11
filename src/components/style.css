@@ -1,0 +1,32 @@
+.nav-link:hover{
+    text-decoration-line: underline;
+}
+
+
+.cardHighlighte_0_10{
+    /* background-color: #e5eaf5; */
+    background: -webkit-linear-gradient(left, grey, #e5eaf5 30%, #e5eaf5 30%, white);
+    transform: scale(1.05);
+    animation: blow 2s ease infinite;
+}
+@keyframes blow{
+    100%{
+        
+    transform: scale(0.9);
+    }
+    50%{
+        transform: scale(1);
+
+    }
+    0%{
+        transform: scale(0.9);
+    }
+}
+
+.custom-bg-color{
+    /* background-color: #e5eaf5; */
+    background: -webkit-linear-gradient(left, grey, #e5eaf5 30%, #e5eaf5 30%, #e5eaf5);
+
+    border-radius: 100px;
+}
+
